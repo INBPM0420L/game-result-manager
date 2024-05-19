@@ -7,7 +7,25 @@ Library to store and retrieve the results of the games in your homework projects
 
 Add the following dependency to your pom.xml file:
 
-Building the project needs access to [GitHub Packages](https://docs.github.com/en/packages).
+```xml
+<dependency>
+    <groupId>hu.unideb.inf</groupId>
+    <artifactId>game-result-manager</artifactId>
+    <version>1.0.0</version>
+    <scope>compile</scope>
+</dependency>
+```
+
+The artifact can be downloaded from [GitHub Packages](https://docs.github.com/en/packages) that requires the following element to be added to your `pom.xml` file:
+
+```xml
+<repositories>
+    <repository>
+        <id>github</id>
+        <url>https://maven.pkg.github.com/INBPM0420L/game-result-manager</url>
+    </repository>
+</repositories>
+```
 
 Note that GitHub Packages requires authentication using a personal access token (classic) that can be created [here](https://github.com/settings/tokens).
 
