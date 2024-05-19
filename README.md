@@ -3,7 +3,9 @@ game-result-manager
 
 Library to store and retrieve the results of the games in your homework projects. 
 
-## Building the Code
+## Download
+
+Add the following dependency to your pom.xml file:
 
 Building the project needs access to [GitHub Packages](https://docs.github.com/en/packages).
 
